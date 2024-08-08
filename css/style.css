@@ -476,10 +476,9 @@ img {
   gap: 16px;
 }
 
-.footer-social-links-item:hover .social-links-link {
-  background-color: #31d0aa;
-}
+.footer-social-links-item:hover .social-links-link,
 .footer-social-links-item:focus .social-links-link {
   background-color: #31d0aa;
 }
+
 /* #endregion footer */
