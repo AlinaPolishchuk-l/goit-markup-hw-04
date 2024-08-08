@@ -476,8 +476,21 @@ img {
   gap: 16px;
 }
 
-.footer-social-links-item:hover > .social-links-link,
-.footer-social-links-item:focus > .social-links-link {
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #31d0aa;
 }
 
