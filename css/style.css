@@ -471,12 +471,13 @@ img {
   margin: 0 0 16px 0;
 }
 
-.footer-social-links {
+.footer-social-links-list {
   display: flex;
   gap: 16px;
 }
-.social-links-item:hover .social-links-link,
-.social-links-item:focus .social-links-link {
+
+.footer-social-links-item:hover .social-links-link,
+.footer-social-links-item:focus .social-links-link {
   background-color: #31d0aa;
 }
 
